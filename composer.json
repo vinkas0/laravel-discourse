@@ -1,0 +1,34 @@
+{
+    "name": "vinkas/laravel-discourse",
+    "description": "Lets you use Discourse as the community engine for any Laravel website",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinoth Kannan",
+            "email": "vinothkannan@vinkas.com",
+            "homepage": "https://github.com/vinothkananns"
+        },
+        {
+            "name": "Vinkas",
+            "homepage": "http://vinkas.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "vinkas/php-discourse": "1.0.*"
+	  },
+    "autoload": {
+        "psr-4": {
+            "Vinkas\\Discourse\\": "src/"
+        }
+    },
+    "keywords": ["api", "discourse", "laravel", "vinkas"],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
